@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "您好，访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码以此证明您是8788用户，您也可以在[设置](/#/settings)页填入你自己的 OpenAI API Key",
   },
   Auth: {
     Title: "需要密码",
@@ -183,8 +183,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "🏅尊贵的8788用户，请问我有什么可以效劳的？😊",
+    Error: "抱歉，尊贵的用户，我们这儿出了点儿错，烦请客人稍后重新尝试吧😿",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
@@ -264,8 +264,8 @@ const cn = {
 
 type DeepPartial<T> = T extends object
   ? {
-      [P in keyof T]?: DeepPartial<T[P]>;
-    }
+    [P in keyof T]?: DeepPartial<T[P]>;
+  }
   : T;
 export type LocaleType = DeepPartial<typeof cn>;
 export type RequiredLocaleType = typeof cn;
