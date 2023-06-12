@@ -333,6 +333,14 @@ export function Settings() {
       </div>
       <div className={styles["settings"]}>
         <List>
+          <ListItem title="赞助">
+            <img
+              width={"100%"}
+              height={"100%"}
+              src="https://chatgpt-1317783500.cos.ap-guangzhou.myqcloud.com/%E8%B5%9E%E8%B5%8F%E7%A0%81.png"
+            />
+          </ListItem>
+
           <ListItem title={Locale.Settings.Avatar}>
             <Popover
               onClose={() => setShowEmojiPicker(false)}
