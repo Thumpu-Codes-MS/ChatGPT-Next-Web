@@ -21,6 +21,11 @@
   @include container();
 }
 
+.bg-sbpk {
+  background-image: url(../image/humen&AI.png);
+  background-size:cover;
+}
+
 @media only screen and (min-width: 600px) {
   .tight-container {
     --window-width: 100vw;
@@ -137,9 +142,11 @@
   font-size: 20px;
   font-weight: bold;
   animation: slide-in ease 0.3s;
+  color: #ffd700;
 }
 
 .sidebar-sub-title {
+  color:#fff;
   font-size: 12px;
   font-weight: 400;
   animation: slide-in ease 0.3s;

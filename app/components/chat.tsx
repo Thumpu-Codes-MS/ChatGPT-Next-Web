@@ -21,6 +21,7 @@ import DarkIcon from "../icons/dark.svg";
 import AutoIcon from "../icons/auto.svg";
 import BottomIcon from "../icons/bottom.svg";
 import StopIcon from "../icons/pause.svg";
+import TurnBgIcon from "../icons/turn-bg.svg";
 
 import {
   ChatMessage,

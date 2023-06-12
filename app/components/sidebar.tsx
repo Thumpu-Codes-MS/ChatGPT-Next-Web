@@ -116,7 +116,7 @@ export function SideBar(props: { className?: string }) {
     <div
       className={`${styles.sidebar} ${props.className} ${
         shouldNarrow && styles["narrow-sidebar"]
-      }`}
+      } ${styles["bg-sbpk"]}`}
     >
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>8788期专属聊天室</div>
